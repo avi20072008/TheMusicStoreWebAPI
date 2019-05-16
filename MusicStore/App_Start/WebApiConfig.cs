@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http.Headers;
 using System.Web.Http;
+using System.Net.Http.Formatting;
+
 
 namespace MusicStore
 {
@@ -15,6 +17,8 @@ namespace MusicStore
             // Web API routes
             config.MapHttpAttributeRoutes();
             //config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new MediaTypeHeaderValue("text/html"));
+            config.Formatters.Clear(); //because there are defaults of XML..
+            config.Formatters.Add(new JsonMediaTypeFormatter());
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
