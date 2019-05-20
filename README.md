@@ -14,16 +14,13 @@ Request Method
 >GET
 
 
-Sort by Artist
- /api/songs/sortBy/Artist
+- Sort by Artist : /api/songs/sortBy/Artist
 
 
-Sort by song Title
- /api/songs/sortBy/Title
+- Sort by song Title : /api/songs/sortBy/Title
 
 
-Sort by ReleaseYear
- /api/songs/sortBy/ReleaseYear
+- Sort by ReleaseYear : /api/songs/sortBy/ReleaseYear
 
 
 
