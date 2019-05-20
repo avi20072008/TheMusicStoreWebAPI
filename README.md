@@ -4,7 +4,7 @@ The Music Store is a RESTful web service developed using ASP.Net WEB API & C#.
 
 This web-service has songs database. This API provides different operations as given below,
 
-**1) Sort Songs by given field name **
+**1) Sort Songs by given field name**
 
 API Endpoint
 >/api/songs/sortBy/{fieldName}
@@ -25,7 +25,7 @@ Request Method
 
 
 
-**2) Search songs between given years. **
+**2) Search songs between given years**
 
 
 API Endpoint
@@ -42,7 +42,7 @@ Get songs between 1940 & 1970
 
 
 
-**3) Get All Songs	**
+**3) Get All Songs**
 
 
  API Endpoint
@@ -74,7 +74,7 @@ Get songs between 1940 & 1970
 
 
  
-**5) Create a new song **
+**5) Create a new song**
 
  API Endpoint
 > /api/songs/
@@ -105,7 +105,7 @@ Get songs between 1940 & 1970
 
 
 
-7) Delete existing song
+**7) Delete existing song**
 
  API Endpoint
  > /api/songs/{id}
