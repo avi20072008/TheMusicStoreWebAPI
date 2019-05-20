@@ -7,11 +7,11 @@ This web-service has songs database. This API provides different operations as g
 1) Sort Songs by given field name 
 
 API Endpoint
- /api/songs/sortBy/{fieldName}
+ 				/api/songs/sortBy/{fieldName}
 
 
 Request Method
- GET
+				 GET
 
 
 Sort by Artist
